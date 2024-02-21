@@ -710,7 +710,7 @@ body {
         transparent,
         var(--dark-color) 60%
       );
-      -webkit-mask-image: linear-gradient(to top, transparent 30%, #F97DC4 60%);
+      mask-image: linear-gradient(to top, transparent 30%, #F97DC4 60%);
     }
 
     &--1 {
@@ -932,7 +932,7 @@ body {
       height: 50vmin;
       border-top-left-radius: 100%;
       border-left: 2vmin solid #F97DC4;
-      -webkit-mask-image: linear-gradient(to top, transparent 25%, #F97DC4 50%);
+      mask-image: linear-gradient(to top, transparent 25%, #F97DC4 50%);
       position: relative;
       z-index: 1;
     }
@@ -957,7 +957,7 @@ body {
           transparent
         );
 
-      -webkit-mask-image: linear-gradient(
+      mask-image: linear-gradient(
         135deg,
         #F97DC4 40%,
         transparent 50%,
@@ -1069,7 +1069,7 @@ body {
     transform: scale(0.8) rotate(-5deg);
 
     .leaf {
-      -webkit-mask-image: linear-gradient(
+      mask-image: linear-gradient(
         to top,
         transparent 40%,
         #F97DC4 80%
@@ -1092,7 +1092,7 @@ body {
     transform: scale(0.6) rotateX(60deg);
 
     .leaf {
-      -webkit-mask-image: linear-gradient(
+      mask-image: linear-gradient(
         to top,
         transparent 50%,
         #F97DC4 80%
@@ -1109,7 +1109,7 @@ body {
     left: -17vmin;
     bottom: 0vmin;
     .leaf {
-      -webkit-mask-image: linear-gradient(
+      mask-image: linear-gradient(
         to top,
         transparent 40%,
         #F97DC4 80%
@@ -1124,7 +1124,7 @@ body {
     transform: scale(0.6) rotateX(60deg);
 
     .leaf {
-      -webkit-mask-image: linear-gradient(
+      mask-image: linear-gradient(
         to top,
         transparent 50%,
         #F97DC4 80%
@@ -1166,7 +1166,7 @@ body {
     height: var(--h);
     border-top-left-radius: 100%;
     border-left: 2vmin solid var(--c);
-    -webkit-mask-image: linear-gradient(
+    mask-image: linear-gradient(
       to top,
       transparent 20%,
       var(--dark-color)
